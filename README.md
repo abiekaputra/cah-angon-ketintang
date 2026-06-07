@@ -1,6 +1,6 @@
 # Cah Angon Ketintang
 
-Landing page UMKM **Cah Angon Ketintang** — website profil usaha yang menampilkan menu, produk, dan layanan.
+Landing page for **Cah Angon Ketintang** — a local farming and fishery UMKM based in Ketintang, Surabaya. The site showcases the group's history, cultivation activities, products, and contact information.
 
 ## Tech Stack
 
@@ -8,17 +8,21 @@ Landing page UMKM **Cah Angon Ketintang** — website profil usaha yang menampil
 - CSS / SCSS
 - JavaScript
 
-## Halaman
+## Pages
 
-| File | Keterangan |
-|------|-----------|
-| `index.html` | Beranda |
-| `about.html` | Tentang UMKM |
-| `menu.html` | Menu |
-| `product.html` | Produk |
-| `service.html` | Layanan |
-| `contact.html` | Kontak |
+| File | Description |
+|------|-------------|
+| `index.html` | Home |
+| `about.html` | About the UMKM |
+| `menu.html` | Gallery |
+| `product.html` | Products |
+| `service.html` | Cultivation activities |
+| `contact.html` | Contact |
 
-## Menjalankan
+## Running Locally
 
-Buka `index.html` di browser, atau serve via static server (mis. `python -m http.server`).
+Open `index.html` directly in a browser, or serve it via a static file server:
+
+```bash
+python -m http.server
+```
